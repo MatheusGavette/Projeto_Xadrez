@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Projeto_Xadrez.Tabuleiro
+namespace Projeto_Xadrez.Tabuleiro_Camada
 {
     enum Cor
     {

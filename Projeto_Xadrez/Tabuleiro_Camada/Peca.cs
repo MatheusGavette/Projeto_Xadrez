@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Projeto_Xadrez.Tabuleiro
+namespace Projeto_Xadrez.Tabuleiro_Camada
 {
     class Peca
     {
@@ -11,9 +11,9 @@ namespace Projeto_Xadrez.Tabuleiro
         public int QtdMovimentos { get; protected set; }
         public Tabuleiro Tab { get; protected set; }
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tab)
+        public Peca(Cor cor, Tabuleiro tab)
         {
-            Posicao = posicao;
+            Posicao = null;
             Cor = cor;
             Tab = tab;
             QtdMovimentos = 0;
